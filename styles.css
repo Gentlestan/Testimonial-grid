@@ -5,7 +5,6 @@
 }
 body {
   line-height: 1.5;
-
   background: hsl(210, 46%, 95%);
 }
 
@@ -125,7 +124,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     margin: 10px auto 0;
     width: 95%;
-    max-width: 1200px;
+    max-width: 1400px;
   }
   .grid_1 {
     grid-column: span 2;
