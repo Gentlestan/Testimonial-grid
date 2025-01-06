@@ -92,7 +92,9 @@ body {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 12px;
+    margin: 10px auto 0;
+    width: 95%;
+    max-width: 1200px;
   }
   .grid_1 {
     grid-column: span 2;
