@@ -5,6 +5,7 @@
 }
 body {
   line-height: 1.5;
+  background: #f2f2f2;
 }
 
 .grid-img {
@@ -73,6 +74,10 @@ body {
 .grid_4 {
   background: #19202d;
 }
+.grid_5,
+.grid_3 {
+  background: #ffffff;
+}
 .grid_5 .testimonial__name {
   background: #ffffff;
   color: #48556a;
@@ -87,10 +92,17 @@ body {
   color: #48556a;
 }
 
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5 {
+  margin-top: 1rem;
+}
+
 @media (min-width: 900px) {
   main {
     display: grid;
-    gap: 20px;
+    gap: 16px;
     grid-template-columns: repeat(4, 1fr);
     margin: 10px auto 0;
     width: 95%;
@@ -116,5 +128,6 @@ body {
   .grid_4,
   .grid_5 {
     border-radius: 5px;
+    margin-top: 0;
   }
 }
