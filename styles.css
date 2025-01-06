@@ -23,6 +23,24 @@ body {
 .testimonial__profile_info {
   padding-left: 0.8rem;
 }
+.testimonial__Daniel__profile__info {
+  margin-top: -30px;
+}
+.testimonial_bg_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.bg_image {
+  width: 102px;
+  height: 104px;
+  margin-top: 22px;
+}
+.testimonial_bg_adjustment {
+  margin-top: -50px;
+}
+
 .grid_1 {
   background: #733fc8;
 }
